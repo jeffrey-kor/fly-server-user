@@ -1,0 +1,18 @@
+server:
+  address: localhost
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Dlsgud*132
+    url: jdbc:mysql://localhost:3306/fly_user
+
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: create
+#    generate-ddl: true
+    show-sql: true
