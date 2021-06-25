@@ -60,6 +60,8 @@ public class User {
 
   public void register() {}
 
+  public void leave() {}
+
   public void login() {}
 
   public void logout() {}
